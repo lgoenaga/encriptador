@@ -23,3 +23,15 @@ Cada letra tendra una encriptación de 8 caracteres entre letras y numeros
 * Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
 * Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
+## Elementos principales de la página
+
+* Título de su sitio web
+
+* Campo para el texto que va a ser encriptado/desencriptado
+
+* Un botón para encriptar
+
+* Un botón para desencriptar
+
+* Área para mostrar el texto encriptado/desencriptado.
