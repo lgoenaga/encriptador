@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="style.css" rel="stylesheet" />
+		<title>Encriptador</title>
+	</head>
+	<body>
+		<main class="contenedor-principal">
+			<section class="logo">
+				<img src="imagenes/Logo.png" alt="Logo" />
+			</section>
+			<section class="texto">
+				<textarea
+					id="textoarea"
+					class="textoarea"
+					placeholder="Ingrese el texto aqui"
+					rows="16"
+					cols="50"
+				></textarea>
+				<div class="condicion">
+					<img
+						class="img-texto"
+						src="imagenes/bi_exclamation-circle-blue.png"
+						alt="simbolo de exclamación"
+					/>
+					<p>Solo letras minúsculas y sin acentos</p>
+				</div>
+				<div class="botones">
+					<button id="encriptar">Encriptar</button>
+					<button id="desencriptar">Desencriptar</button>
+				</div>
+			</section>
+			<section class="resultado">
+				<section class="resultado-texto">
+					<div id="resultado-bloque" class="resultado-bloque">
+						<img
+							class="img-resultado"
+							src="imagenes/Muñeco.png"
+							alt="Resultado"
+						/>
+						<p>Ningún mensaje fue encontrado</p>
+						<p>Ingresa el texto que desees encriptar o desencriptar.</p>
+					</div>
+				</section>
+				<section id="resultado-textarea" class="resultado-textarea" hidden>
+					<textarea
+						id="resultado-textoarea"
+						class="resultado-textoarea"
+						rows="38"
+						cols="50"
+						disabled
+					></textarea>
+					<button id="copiar" class="copiar">Copiar</button>
+				</section>
+			</section>
+		</main>
+	</body>
+</html>
